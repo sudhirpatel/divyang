@@ -8,7 +8,6 @@ import javax.faces.bean.RequestScoped;
 
 @ManagedBean(name = "navigationController", eager = true)
 @RequestScoped
-@SessionScoped
 public class NavigationController implements Serializable {
 
 	private static final long serialVersionUID = 1L;
